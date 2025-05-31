@@ -1,10 +1,12 @@
-.marck-script-regular {
-    font-family: "Marck Script", cursive;
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+body {
+    font-family: sans-serif;
 }
+
 
 header{
     text-align: center;
-    background-color: lightblue;
+    background-color: lightgray;
     border-radius: 10px;
     height: 60;
 }
@@ -31,4 +33,5 @@ footer{
 footer a{
     color: black;
     text-decoration: none;
+    font-family: "Marck Script", cursive;
 }
